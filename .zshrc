@@ -12,15 +12,7 @@ export PATH="$PATH:/Users/jannahalka/.local/bin"
 
 zstyle ':completion:*' matcher-list ''
 alias vi='nvim'
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH=$PATH:$HOME/go/bin
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/jannahalka/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jannahalka/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/jannahalka/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jannahalka/google-cloud-sdk/completion.zsh.inc'; fi
+eval "$(oh-my-posh init zsh --config 'half-life')"
