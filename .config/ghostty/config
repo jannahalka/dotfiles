@@ -1,0 +1,6 @@
+theme = tokyonight
+
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+font-feature = -calt
+
+confirm-close-surface = false
