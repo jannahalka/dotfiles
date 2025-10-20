@@ -1,0 +1,10 @@
+# Lazy.nvim
+lazy-lock.json
+state.json
+lua/*/lazy-lock.json
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore plugin manager files (e.g. tpm)
+.config/tmux/plugins/
