@@ -1,0 +1,21 @@
+return {
+  "lervag/vimtex",
+  lazy = false, -- we don't want to lazy load VimTeX
+  -- tag = "v2.15", -- uncomment to pin to a specific release
+  init = function()
+    vim.g.vimtex_compiler_latexmk = {
+      build_dir = "build",
+      continuous = 1,
+      callback = 1,
+      executable = "latexmk",
+      options = {
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "-file-line-error",
+      },
+    }
+    -- VimTeX configuration goes here, e.g.
+    vim.g.vimtex_view_method = "skim"
+  end
+}

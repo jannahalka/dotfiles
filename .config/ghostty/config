@@ -1,6 +1,8 @@
 theme = tokyonight
 
-font-family = "JetBrainsMonoNL Nerd Font Mono"
-font-feature = -calt
+font-family = "JetBrains Mono"
+font-feature = -calt, -liga, -dlig
+font-thicken = true
 
+maximize = true
 confirm-close-surface = false
