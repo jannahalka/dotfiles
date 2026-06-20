@@ -17,6 +17,7 @@ export PATH="$PATH:/Users/jannahalka/.local/bin"
 export VIRTUALENVWRAPPER_PYTHON=`which python3`
 alias vi='nvim'
 alias python='python3'
+alias ff='fastfetch'
 
 export PATH=$PATH:$HOME/go/bin
 
