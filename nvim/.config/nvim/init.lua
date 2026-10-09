@@ -7,6 +7,6 @@ vim.api.nvim_create_autocmd('FileType', {
   end,
 })
 
-vim.lsp.enable({ "clangd", "pyright", "ruff", "lua_ls", "gopls", "ocamllsp", "tinymist" })
+vim.lsp.enable({ "clangd", "pyright", "ruff", "lua_ls", "gopls", "ocamllsp", "tinymist", "ty" })
 vim.diagnostic.config({ virtual_text = true })
 vim.cmd("set completeopt+=noselect")
