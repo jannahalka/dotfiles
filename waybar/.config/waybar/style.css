@@ -7,7 +7,7 @@
 @import "themes/catppuccin-mocha.css";
 
 * {
-	font-family: "GoogleSansCode Nerd Font";
+	font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
 	font-size: 13px;
 	font-weight: 500;
 	color: @fg;

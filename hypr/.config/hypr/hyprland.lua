@@ -101,9 +101,9 @@ hl.config({
         gaps_in  = 5,
         gaps_out = 10,
 
-        border_size = 2,
         col = {
             active_border = {
+                border_size = 2,
                 colors = {
                     "rgba(7aa2f7ee)", -- Tokyo Night blue
                     "rgba(bb9af7ee)", -- Tokyo Night purple
