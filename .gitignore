@@ -7,4 +7,4 @@ lua/*/lazy-lock.json
 .DS_Store
 
 # Ignore plugin manager files (e.g. tpm)
-.config/tmux/plugins/
+tmux/.config/tmux/plugins/

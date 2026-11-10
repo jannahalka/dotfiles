@@ -46,6 +46,7 @@ local menu        = "rofi -show drun"
 -- Autostart Waybar on session launch
 hl.on("hyprland.start", function ()
     hl.exec_cmd("waybar")
+    hl.exec_cmd("hypridle")
     hl.exec_cmd("xbindkeys")
     hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'")
 end)
