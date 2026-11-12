@@ -24,7 +24,7 @@ return {
       typescript = { "prettierd", "prettier", stop_after_first = true },
       typescriptreact = { "prettierd", "prettier", stop_after_first = true },
       go = { "gofumpt" },
-      python = { "ruff" },
+      python = { "ruff_format" },
     },
     -- Set default options
     default_format_opts = {

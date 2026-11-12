@@ -6,6 +6,9 @@ esac
 
 # Path to your oh-my-bash installation.
 export OSH='/home/batman/.oh-my-bash'
+export ZEPHYR_BASE="$HOME/ncs/v3.0.0/zephyr"
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT="1"
+export CONAN_LOGIN_USERNAME_ARTIFACTORY=tm_embedded
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -155,3 +158,10 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+
+export PYENV_ROOT="$HOME/.pyenv"
+    [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
+# uv
+export PATH="/home/batman/.local/bin:$PATH"
